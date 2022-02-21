@@ -8,3 +8,5 @@ How to install everything so this project works:
 6.Config .env file. Need to set up DB name , DB password and APP_KEY.
 7.To create tables in your database use command - php artisan migrate.
 8.If you want to populate the db you can use command "php artisan db:seed" .Default is set to 5000, change the number if you need to.
+9.Run command php artisan serve
+10.To go to the website hit url  http://127.0.0.1:8000/
