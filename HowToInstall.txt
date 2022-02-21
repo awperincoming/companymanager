@@ -1,0 +1,10 @@
+How to install everything so this project works:
+
+1.You need xampp on your computer and activate mysql and apache.
+2.Install composer.
+3.Create your database in localhost.
+4.Open cmd and navigate to project location and run "composer install".
+5.Generate APP_KEY with command - php artisan key:generate
+6.Config .env file. Need to set up DB name , DB password and APP_KEY.
+7.To create tables in your database use command - php artisan migrate.
+8.If you want to populate the db you can use command "php artisan db:seed" .Default is set to 5000, change the number if you need to.
